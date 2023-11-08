@@ -1,0 +1,14 @@
+:root {
+  --pink: #e19898;
+  --violet: #4d3c77;
+  --purple: #3f1d38;
+  --mauve: #b07a8d;
+  --light-pink: #f9eaea;
+  --dark-purple: #44274d;
+  --white: #ffffff;
+  --black: #000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+*{font-family:'Jost', sans-serif;}
