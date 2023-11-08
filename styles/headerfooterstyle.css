@@ -59,7 +59,6 @@ footer section{
   align-items: center;
   justify-content: center;
   width: 50%;
-  margin
 }
 
 .link_img_coder{
@@ -148,7 +147,7 @@ footer section{
   .logo_img {
     margin-left: 2%;
   }
-
+  
   .footer_mobile_section{
     display: none;
   }
