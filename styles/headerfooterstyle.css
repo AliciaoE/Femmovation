@@ -35,9 +35,7 @@ body{
 .logo_img{
   display: flex;
   justify-content: center;
-  width: 178px;
-  
-  
+  width: 178px; 
 }
 
 .navbar{
@@ -51,7 +49,7 @@ footer{
 footer section{
   background-color: var(--pink);
   display:flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -59,8 +57,9 @@ footer section{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 20%;
-  border: #000 solid 1px;
+  justify-content: center;
+  width: 50%;
+  margin
 }
 
 .link_img_coder{
@@ -88,10 +87,26 @@ footer section{
 
 .footer_mobile_section{
  background-color: var(--purple);
+ height: 100px;
  display: flex;
  justify-content: center;
+ align-items: center;
  color: var(--white);
 }
+
+.contactbuttonfooter{
+  width: 157.7px;
+  height: 50px;
+  background-color: var(--dark-purple);
+  border: var(--white) solid 0.5px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
 
 
 
@@ -107,14 +122,16 @@ footer section{
   .navbar{
     display: flex;
     color: var(--white);
-    justify-content: space-around;
-    width: 25%;
-  } 
+    justify-content: space-between;
+    align-items: center;
+    width: 238px;
+    margin-right: 2%;
+  }
+
 
   .navbar a{
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     
   }
 
@@ -128,10 +145,16 @@ footer section{
     align-items: center;
   }
 
-  .logo_img{
+  .logo_img {
     margin-left: 2%;
   }
-}
+
+  .footer_mobile_section{
+    display: none;
+  }
+
+} 
+    
 
 
 
