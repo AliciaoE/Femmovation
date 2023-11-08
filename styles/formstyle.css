@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 @import url(/Femovation/styles/headerfooterstyle.css);
 @import url(/Femovation/styles/reset.css);
@@ -5,3 +6,7 @@
 body{
     font-family: 'Jost', sans-serif;
 }
+=======
+@import url(/styles/headerfooterstyle.css);
+
+>>>>>>> 192cd95c37ae0da4cc75d2b41ce460b012291d81
