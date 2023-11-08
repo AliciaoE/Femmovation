@@ -12,12 +12,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 @import url(/styles/reset.css);
 
+*{
+  color: inherit;
+  text-decoration:none;
+}
+
 body{
   font-family:'Jost', sans-serif;
+  margin: 0;
 }
 
 header{
   background-color: var(--pink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  width: 100%;
 }
+
+header img{
+  display: flex;
+  justify-content: center;
+}
+
+nav{
+  display: none;
+}
+
+footer{
+  width: 100%;
+}
+
+footer section{
+  background-color: var(--purple);
+  display:flex;
+}
+
+
+
+
+
+@media screen and (min-width:1200px){
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav{
+    display: block;
+    display: flex;
+    justify-content:space-around;
+    color: var(--white);
+  } 
+}
+
+
 
 
