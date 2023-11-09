@@ -2,7 +2,7 @@
 @import url(/styles/headerfooterstyle.css);
 
 .main_contact{
-    min-height: 400px;
+    margin-bottom: 40px;
 }
 .contact_title{
     font-size: 3rem;
@@ -89,6 +89,14 @@ textarea{
     background-color: #E19898;
 }
 
+.footermainsection{
+    display: initial;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
 @media only screen and (max-width: 576px) {
     .main_contact{
         margin-bottom: 20px;
@@ -114,12 +122,6 @@ textarea{
     .right_input{
         width: 100%;
     }
-    .placeholder::placeholder{
-        font-size: 0.7rem;
-    }
-    label{
-        font-size: 0.7rem;
-    }
     .buttons_form{
         display: flex;
         justify-content: center;
@@ -127,5 +129,8 @@ textarea{
     }
     .buttons_form button{
         width: 40%;
+    }
+    .footermainsection{
+        display: none;
     }
 }
