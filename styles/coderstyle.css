@@ -58,7 +58,7 @@
     margin: 0 0 2% 0;
 }
 
-.footermainsection{
+.footermainsection{      /*  HOLI GRECIA!! esto es lo que tienes que añadir :D  */
     display: none;
 }
 
@@ -109,6 +109,7 @@
 .main {
     display: flex;
     flex-direction: row;
+    max-height: 20%;
 }
 
 .mainimage{
@@ -121,11 +122,11 @@
 
 
 .dropshape {
-    width: 409px;
-    height: 418px;
+    max-width: 409px;
+    max-height: 418px;
 }
 
-.footermainsection{
+.footermainsection{         /*  HOLI GRECIA!! esta el la parte que tienes que añadir :D  */
     display: initial;
     display: flex;
     flex-direction: row;
