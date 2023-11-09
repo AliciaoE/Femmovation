@@ -2,17 +2,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 
 :root {
-    --pink: #e19898;
-    --violet: #4d3c77;
-    --purple: #3f1d38;
-    --mauve: #b07a8d;
-    --light-pink: #f9eaea;
-    --dark-purple: #44274d;
-    --white: #ffffff;
-    --black: #000;
-  }
+  --pink: #e19898;
+  --violet: #4d3c77;
+  --purple: #3f1d38;
+  --mauve: #b07a8d;
+  --light-pink: #f9eaea;
+  --dark-purple: #44274d;
+  --white: #ffffff;
+  --black: #000;
+}
 
 .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 2%;
+  padding: 2%;
+  height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -62,28 +68,28 @@
     display: none;
 }
 
-.coderrole{
-    width: 100%;
-    font-size: 22px;
-    color: var(--dark-purple);
-    font-weight: 400; 
-    margin: 0 0 5% 0;
+.coderrole {
+  width: 100%;
+  font-size: 22px;
+  color: var(--dark-purple);
+  font-weight: 400;
+  margin: 0 0 5% 0;
 }
 
-.coderdescription{
-    width: 100%;
-    font-size: 18px;
-    color: var(--black);
-    font-weight: 400; 
-    margin: 0 0 5% 0;
+.coderdescription {
+  width: 100%;
+  font-size: 18px;
+  color: var(--black);
+  font-weight: 400;
+  margin: 0 0 5% 0;
 }
 
-.contactbox{
-    width: 236px;
-    margin-bottom: 1%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.contactbox {
+  width: 236px;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .logoLinkedin {
