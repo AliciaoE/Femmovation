@@ -1,5 +1,5 @@
 @import url(/styles/headerfooterstyle.css);
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 
 :root {
     --pink: #e19898;
@@ -12,66 +12,92 @@
     --black: #000;
   }
 
-
-
 .main_img  {
-
 height: 265px;
 width: 265px;
 margin-top: 10%;
 background-color: #e19898;
- margin-top: 15%;
+margin-top: 15%;
 border-radius: 500px 0px 500px 500px;
 margin-left: 10%;
+background-image: url(../assets/images/group\ 2.png);
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+
 }
-
-.dropshape img{
-  width: 100%;
-
-}
-
-.main_img,
-.aside {
-    display: flex;
-    flex-direction: column;
-
-  }
 
 .home_title{
     color: var(--pink);
     font-size: 48px;
-    font-family: 'Jost', sans-serif;
-    font-weight: normal;
-    margin-left: 45%;
   
+    font-weight: normal;
+    margin-left: 10%;
+    width: 10%; /* añadi esto para que siempre se quede el titulo en dos lineas, besito besito débs  */
+
 }
 .home_subtitle{
 color:var(--dark-purple);
 font-family: 'Jost', sans-serif;
 font-weight: normal;
 font-size: 20px;
-margin-bottom: -40px;
-margin-left: 25%;
-
+margin-left: 10%;   
+margin-top: -40px;
 }
 
-.home_subtitle,
-.home_title{
-  margin: 0%;
+.callbutton{
+
+  width: 157.7px;
+  height: 50px;
+  background-color: var(--violet);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6%;
+  margin-bottom: 20%;
+  color: #ffffff;
 }
+@media screen and (min-width: 1200px) {
+  .main {
+    display: flex;
+    align-items: center;
+    width: 70%;
+   
 
+    
+  }
 
-.call_button_link{
-    background-color: var(--violet);
-    color:var(--white);
-    margin: 65px;
-    margin-bottom: 65px;
-    border-radius: 20px;
-    text-align: center;
-    padding: 16px;
-    width:100px;
-    margin-left: 0%;
+  .main_img
+{
+  margin-top: 5%;
+  margin-bottom: 60px;
+  width: 40%;
+  height: 40%;
+  padding: 25%;
+  max-width: 265px;
   
+  }
+  .aside{
+margin-left: 5%;
+  }
 
+  .home_title{
+    font-size: 80px;
+    margin-bottom: 10%;
+    line-height: 75px;
+
+   
+  }
+  .home_subtitle{
+    font-size: 32px;
+  }
+
+  
+  
+  
+  
+  
 }
 
+ 

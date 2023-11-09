@@ -1,8 +1,127 @@
 @import url(/styles/headerfooterstyle.css);
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 
-/* borrar */
-img{
-    width: 100px;
+:root {
+    --pink: #e19898;
+    --violet: #4d3c77;
+    --purple: #3f1d38;
+    --mauve: #b07a8d;
+    --light-pink: #f9eaea;
+    --dark-purple: #44274d;
+    --white: #ffffff;
+    --black: #000;
+  }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;  
 }
 
-/* borrar */
+.mainimage {
+    display: flex;
+    justify-content: center;
+    padding: 5% 5% 5% 5%
+}
+
+.dropshape {
+    background-color: var(--pink);
+    border-radius: 50% 0 50% 50%;
+    height: 315px;
+    min-width: 317px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.photocoder {
+    width: 95%;
+    height:95% ;
+    border-radius: 50%;
+    background-color: var(--purple);
+}
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5% 2% 5%;
+    
+}
+
+.codername{
+    width: 10%;
+    font-size: 65px;
+    color: var(--pink);
+    font-weight: 400;
+    line-height: 81%;
+    margin: 0 0 2% 0;
+}
+
+.footermainsection{
+    display: none;
+}
+
+.coderrole{
+    width: 100%;
+    font-size: 22px;
+    color: var(--dark-purple);
+    font-weight: 400; 
+    margin: 0 0 5% 0;
+}
+
+.coderdescription{
+    width: 100%;
+    font-size: 18px;
+    color: var(--black);
+    font-weight: 400; 
+    margin: 0 0 5% 0;
+}
+
+.contactbox{
+    width: 236px;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoLinkedin {
+    height: 50px;
+  }
+  
+.callbutton{
+    width: 157.7px;
+    height: 50px;
+    background-color: var(--violet);
+    color: var(--white);
+    border: var(--white) solid 0.5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+@media screen and (min-width: 1200px) {
+    
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.dropshape {
+    width: 409px;
+    height: 418px;
+}
+
+.footermainsection{
+    display: initial;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+
+}
