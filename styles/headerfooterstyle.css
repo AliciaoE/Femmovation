@@ -50,13 +50,15 @@ footer {
   margin-top: auto;
 }
 
-footer section {
+.footermainsection {
   background-color: var(--pink);
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
+
 
 .profilecoder {
   display: flex;
@@ -120,9 +122,6 @@ footer section {
   height: 50px;
 }
 
-.footermainsection {
-  padding-bottom: 20px;
-}
 
 @media screen and (min-width: 1200px) {
   .header {
