@@ -1,5 +1,5 @@
 @import url(/styles/headerfooterstyle.css);
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 
 :root {
     --pink: #e19898;
@@ -30,10 +30,10 @@ background-position: center;
 .home_title{
     color: var(--pink);
     font-size: 48px;
-    font-family: 'Jost', sans-serif;
+  
     font-weight: normal;
     margin-left: 10%;
-    width: 10%;
+    width: 10%; /* añadi esto para que siempre se quede el titulo en dos lineas, besito besito débs  */
 
 }
 .home_subtitle{
@@ -41,7 +41,7 @@ color:var(--dark-purple);
 font-family: 'Jost', sans-serif;
 font-weight: normal;
 font-size: 20px;
-margin-left: 10%;   /* añadi esto para que siempre se quede el titulo en dos lineas, besito besito débs  */
+margin-left: 10%;   
 margin-top: -40px;
 }
 

@@ -29,19 +29,23 @@
         <section class="contact_section">
             <form action="" class="contact_form">
                     <div class="left_inputs">
-                        <label for="name">Nombre</label>
-                        <input type="text" name="user_name" id="name" placeholder="Escribe tu nombre...">
-    
-                        <label for="mail">Mail</label>
-                        <input type="email" name="user_email" id="mail" placeholder="Escribe tu mail...">
-                        <div class="buttons_form">
-                            <input type="submit" value="Enviar">
-                            <input type="submit" value="Cancelar">
+                        <!--Inputs-->
+                        <div class="left_form">
+                            <label for="name" class="label">Nombre</label>
+                            <input type="text" name="user_name" id="name" placeholder="Escribe tu nombre..." class="input_form placeholder">
+                            <label for="mail" class="label mail_label">Mail</label>
+                            <input type="email" name="user_email" id="mail" placeholder="Escribe tu mail..." class="input_form placeholder">
+                        </div>
+                        <!--Textarea-->
+                        <div class="right_input">
+                            <label for="message">Consulta</label>
+                            <textarea name="user_message" id="message" type="text" placeholder="Escribe tu consulta..." class="textarea placeholder"></textarea>
                         </div>
                     </div>
-                    <div class="right_input">
-                        <label for="message">Consulta</label>
-                        <textarea name="user_message" id="message" type="text" placeholder="Escribe tu consulta..."></textarea>
+
+                    <div class="buttons_form">
+                        <button class="button" id="violet_button">Enviar</button>
+                        <button class="button" id="pink_button">Cancelar</button>
                     </div>
             </form>
         </section>

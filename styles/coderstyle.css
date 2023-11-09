@@ -1,4 +1,3 @@
-@import url(/styles/reset.css);
 @import url(/styles/headerfooterstyle.css);
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 
@@ -23,50 +22,50 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 2%;
-    padding: 2%;
-    
+    width: 100%;  
 }
 
 .mainimage {
-  display: flex;
-  justify-content: center;
-  padding: 2% 5% 2% 5%;
+    display: flex;
+    justify-content: center;
+    padding: 5% 2% 5% 2%
 }
 
 .dropshape {
-  background-color: var(--pink);
-  border-radius: 50% 0 50% 50%;
-  min-height: 315px;
-  min-width: 317px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background-color: var(--pink);
+    border-radius: 50% 0 50% 50%;
+    height: 315px;
+    width: 317px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 .photocoder {
-  width: 95%;
-  height: 95%;
-  border-radius: 50%;
-  background-color: var(--purple);
+    width: 95%;
+    height:95% ;
+    border-radius: 50%;
+    background-color: var(--purple);
 }
 
 .maintext{
     display: flex;
     flex-direction: column;
+    padding: 5% 5% 2% 5%;
+    
     
 }
 
-.codername {
-  width: 10%;
-  font-size: 65px;
-  color: var(--pink);
-  font-weight: 400;
-  line-height: 81%;
-  margin: 0 0 2% 0;
+.codername{
+    width: 10%;
+    font-size: 60px;
+    color: var(--pink);
+    font-weight: 400;
+    line-height: 81%;
+    margin: 0 0 2% 0;
 }
 
-.footermainsection {
-  display: none;
+.footermainsection{      /*  HOLI GRECIA!! esto es lo que tienes que añadir :D  */
+    display: none;
 }
 
 .coderrole {
@@ -94,50 +93,64 @@
 }
 
 .logoLinkedin {
-  height: 50px;
-}
+    height: 50px;
+  }
+  
+.callbutton{
+    width: 157.7px;
+    height: 50px;
+    background-color: var(--violet);
+    color: var(--white);
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-.callbutton {
-  width: 157.7px;
-  height: 50px;
-  background-color: var(--violet);
-  color: var(--white);
-  border: var(--white) solid 0.5px;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  }
+
 
 @media screen and (min-width: 1200px) {
-  .main {
+    
+.main {
     display: flex;
     flex-direction: row;
-  }
-
-  .dropshape {
-    width: 439px;
-    height: 448px;
-  }
-
-  .footermainsection {
-    display: flex;
-  }
-
-  .profilecoder {
-    gap: 21px;
-  }
-
-  .profilecoder h5 {
-    margin-bottom: -10px;
-    margin-top: 10px;
-  }
+    align-items: center;
+    margin-top: auto;
 }
 
-.footer{
-    height:382px;
+.coderrole{
+    margin: 0 0 2% 0;
+}
 
-.footermainsection{
+.codername{
+    margin: 0 0 1% 0;
+}
+
+.coderdescription{
+    width: 75%;
+    margin: 0 0 3% 0;
+}
+
+.mainimage{
+    padding: 1% 2.5% 1% 15%;
+}
+
+ .maintext{
+    padding: 2% 10% 2% 2.5%
+ }
+
+.dropshape {
+    max-width: 439px;
+    max-height:448px;
+}
+
+
+.coderdescription{
+    font-size: 15px;
+}
+
+.footermainsection{         /*  HOLI GRECIA!! esta el la parte que tienes que añadir :D  */
     display: initial;
     display: flex;
     flex-direction: row;
@@ -145,21 +158,5 @@
     padding-bottom: 20px;
 }
 
-.profilecoder a, h5, h6{
-    height: 100%;
-}
 
-.profilecoder h5 {
-    margin-bottom: 10px;
-    margin-top: 15px;
-  }
-  
-  .profilecoder h6 {
-    margin-bottom: 15px;
-  }
-
-  .logoLinkedin{
-    margin-bottom: 3px;
-
-  }
 }
