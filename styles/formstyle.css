@@ -34,7 +34,7 @@ form{
 }
 label{
     color: #4D3C77;
-    font-size: 0.6rem;
+    font-size: 1rem;
     padding-left: 12px;
     margin-bottom: 3px;
 }
@@ -50,12 +50,12 @@ button, input, textarea{
 }
 .placeholder::placeholder{
     font-family: "Jost", sans-serif;
-    font-size: 0.6rem;
+    font-size: 1rem;
     opacity: 0.5;
 }
 .left_inputs .input_form{
-    padding: 10px;
-    border-radius: 16px;
+    padding: 15px 10px;
+    border-radius: 24px;
 }
 .buttons_form{
     margin-top: 20px;
@@ -68,8 +68,8 @@ button, input, textarea{
 }
 textarea{
     padding: 12px;
-    min-height: 72px;
-    border-radius: 16px;
+    min-height: 105px;
+    border-radius: 20px;
     resize: none;
 }
 
@@ -77,10 +77,10 @@ textarea{
     font-family: "Jost", sans-serif;
     padding: 8px;
     width: 22%;
-    border-radius: 16px;
+    border-radius: 20px;
     text-align: center;
     color: #fff;
-    font-size: 10px;
+    font-size: 0.9rem;
 }
 .button#violet_button{
     background-color: #4D3C77;
@@ -92,6 +92,10 @@ textarea{
 @media only screen and (max-width: 576px) {
     .main_contact{
         margin-bottom: 20px;
+    }
+    .contact_title{
+        padding-left: 10px;
+        font-size: 2.5rem;
     }
     form{
         display: flex;
@@ -109,6 +113,12 @@ textarea{
     }
     .right_input{
         width: 100%;
+    }
+    .placeholder::placeholder{
+        font-size: 0.7rem;
+    }
+    label{
+        font-size: 0.7rem;
     }
     .buttons_form{
         display: flex;
