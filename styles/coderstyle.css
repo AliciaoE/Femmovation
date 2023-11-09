@@ -22,14 +22,14 @@
 .mainimage {
     display: flex;
     justify-content: center;
-    padding: 5% 5% 5% 5%
+    padding: 5% 2% 5% 2%
 }
 
 .dropshape {
     background-color: var(--pink);
     border-radius: 50% 0 50% 50%;
     height: 315px;
-    min-width: 317px;
+    width: 317px;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -46,6 +46,7 @@
     flex-direction: column;
     padding: 5% 5% 2% 5%;
     
+    
 }
 
 .codername{
@@ -57,7 +58,7 @@
     margin: 0 0 2% 0;
 }
 
-.footermainsection{
+.footermainsection{      /*  HOLI GRECIA!! esto es lo que tienes que añadir :D  */
     display: none;
 }
 
@@ -94,7 +95,7 @@
     height: 50px;
     background-color: var(--violet);
     color: var(--white);
-    border: var(--white) solid 0.5px;
+    border: none;
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -108,14 +109,24 @@
 .main {
     display: flex;
     flex-direction: row;
+    max-height: 20%;
 }
+
+.mainimage{
+    padding: 5% 2.5% 5% 15%
+}
+
+ .maintext{
+    padding: 5% 15% 5% 2.5%
+ }
+
 
 .dropshape {
-    width: 409px;
-    height: 418px;
+    max-width: 409px;
+    max-height: 418px;
 }
 
-.footermainsection{
+.footermainsection{         /*  HOLI GRECIA!! esta el la parte que tienes que añadir :D  */
     display: initial;
     display: flex;
     flex-direction: row;
