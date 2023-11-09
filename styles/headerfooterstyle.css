@@ -9,8 +9,9 @@
   --black: #000;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 @import url(/styles/reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
 
 * {
   color: inherit;
@@ -32,7 +33,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 99px;
+  min-height: 100px;
 }
 
 .logo_img {
@@ -49,13 +50,15 @@ footer {
   margin-top: auto;
 }
 
-footer section {
+.footermainsection {
   background-color: var(--pink);
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
+
 
 .profilecoder {
   display: flex;
@@ -89,7 +92,7 @@ footer section {
   color: var(--dark-purple);
   font-weight: 400;
   font-size: 20px;
-  margin-top: -5px;
+  margin-top: 2px;
   margin-bottom: 10px;
 }
 
@@ -119,9 +122,6 @@ footer section {
   height: 50px;
 }
 
-.footermainsection {
-  padding-bottom: 20px;
-}
 
 @media screen and (min-width: 1200px) {
   .header {
@@ -164,5 +164,8 @@ footer section {
   .footermainsection {
     flex-wrap: nowrap;
     display: flex;
+    max-height: 360px;
   }
+
+ 
 }
