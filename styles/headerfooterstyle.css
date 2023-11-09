@@ -21,6 +21,9 @@ body {
   font-family: "Jost", sans-serif;
   font-weight: 400;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .header {
@@ -43,7 +46,7 @@ body {
 }
 
 footer {
-  width: 100%;
+  margin-top: auto;
 }
 
 footer section {
@@ -59,7 +62,7 @@ footer section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 48%;
+  width: 49.2%;
 }
 
 .link_img_coder {
@@ -111,6 +114,7 @@ footer section {
   justify-content: center;
 }
 
+
 .logoLinkedin {
   height: 50px;
 }
@@ -159,6 +163,6 @@ footer section {
 
   .footermainsection {
     flex-wrap: nowrap;
-    display:flex;
+    display: flex;
   }
 }
