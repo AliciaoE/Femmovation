@@ -33,7 +33,7 @@ background-position: center;
   
     font-weight: normal;
     margin-left: 10%;
-    width: 10%;
+    width: 10%; /* añadi esto para que siempre se quede el titulo en dos lineas, besito besito débs  */
 
 }
 .home_subtitle{
@@ -41,7 +41,7 @@ color:var(--dark-purple);
 font-family: 'Jost', sans-serif;
 font-weight: normal;
 font-size: 20px;
-margin-left: 10%;   /* añadi esto para que siempre se quede el titulo en dos lineas, besito besito débs  */
+margin-left: 10%;   
 margin-top: -40px;
 }
 
