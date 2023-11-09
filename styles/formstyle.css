@@ -1,12 +1,30 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
-@import url(/Femovation/styles/headerfooterstyle.css);
-@import url(/Femovation/styles/reset.css);
-
-body{
-    font-family: 'Jost', sans-serif;
-}
-=======
 @import url(/styles/headerfooterstyle.css);
 
->>>>>>> 192cd95c37ae0da4cc75d2b41ce460b012291d81
+.main_contact{
+    min-height: 550px;
+    margin: 0 auto;
+}
+
+.contact_title{
+    color: var(--pink);
+}
+.contact_section{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+form{
+    background-color: blueviolet;
+    width: 60%;
+}
+
+.inputs_container{
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.left_inputs{
+    display: flex;
+    flex-direction: column;
+}
