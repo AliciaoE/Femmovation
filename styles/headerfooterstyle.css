@@ -64,7 +64,7 @@ footer section {
 
 .link_img_coder {
   width: 170px;
-  height: 170px;
+  height: 120px;
   text-align: center;
   margin-top: 30px;
 }
@@ -79,12 +79,15 @@ footer section {
   color: var(--white);
   font-weight: 400;
   font-size: 20px;
+  margin-bottom: -2px;
 }
 
 .profilecoder h6 {
   color: var(--dark-purple);
   font-weight: 400;
   font-size: 20px;
+  margin-top: -5px;
+  margin-bottom: 10px;
 }
 
 .footer_mobile_section {
@@ -106,6 +109,14 @@ footer section {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.logoLinkedin {
+  height: 50px;
+}
+
+.footermainsection {
+  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -146,7 +157,8 @@ footer section {
     display: none;
   }
 
-  footer section {
+  .footermainsection {
     flex-wrap: nowrap;
+    display:flex;
   }
 }
