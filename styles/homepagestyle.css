@@ -33,6 +33,7 @@ background-position: center;
     font-family: 'Jost', sans-serif;
     font-weight: normal;
     margin-left: 10%;
+    width: 10%;
 
 }
 .home_subtitle{
@@ -40,7 +41,7 @@ color:var(--dark-purple);
 font-family: 'Jost', sans-serif;
 font-weight: normal;
 font-size: 20px;
-margin-left: 10%;
+margin-left: 10%;   /* añadi esto para que siempre se quede el titulo en dos lineas, besito besito débs  */
 margin-top: -40px;
 }
 
