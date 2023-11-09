@@ -14,17 +14,21 @@
     justify-content: center;
 }
 form{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
     background-color: blueviolet;
     width: 60%;
 }
 
-.inputs_container{
-    background-color: aquamarine;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
 .left_inputs{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+.right_input{
+    background-color: rgb(80, 184, 11);
     display: flex;
     flex-direction: column;
 }
