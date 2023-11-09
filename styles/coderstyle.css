@@ -51,7 +51,7 @@
 
 .codername{
     width: 10%;
-    font-size: 65px;
+    font-size: 60px;
     color: var(--pink);
     font-weight: 400;
     line-height: 81%;
@@ -109,21 +109,39 @@
 .main {
     display: flex;
     flex-direction: row;
-    max-height: 20%;
+    align-items: center;
+    margin-top: auto;
+}
+
+.coderrole{
+    margin: 0 0 2% 0;
+}
+
+.codername{
+    margin: 0 0 1% 0;
+}
+
+.coderdescription{
+    width: 75%;
+    margin: 0 0 3% 0;
 }
 
 .mainimage{
-    padding: 5% 2.5% 5% 15%
+    padding: 1% 2.5% 1% 15%;
 }
 
  .maintext{
-    padding: 5% 15% 5% 2.5%
+    padding: 2% 10% 2% 2.5%
  }
 
-
 .dropshape {
-    max-width: 409px;
-    max-height: 418px;
+    max-width: 439px;
+    max-height:448px;
+}
+
+
+.coderdescription{
+    font-size: 15px;
 }
 
 .footermainsection{         /*  HOLI GRECIA!! esta el la parte que tienes que añadir :D  */
