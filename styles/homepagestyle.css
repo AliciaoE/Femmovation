@@ -13,20 +13,28 @@
   }
 
 
-.main_img .dropshape img {
-width: 75%;
-  margin-top: 10%;
-  background-color: #e19898;
-  padding-left: 40px;
-  
- 
+
+.main_img  {
+
+height: 265px;
+width: 265px;
+margin-top: 10%;
+background-color: #e19898;
+ margin-top: 15%;
+border-radius: 500px 0px 500px 500px;
+margin-left: 10%;
+}
+
+.dropshape img{
+  width: 100%;
+
 }
 
 .main_img,
 .aside {
     display: flex;
     flex-direction: column;
-    text-align: center;
+
   }
 
 .home_title{
@@ -34,25 +42,36 @@ width: 75%;
     font-size: 48px;
     font-family: 'Jost', sans-serif;
     font-weight: normal;
+    margin-left: 45%;
+  
 }
 .home_subtitle{
 color:var(--dark-purple);
 font-family: 'Jost', sans-serif;
 font-weight: normal;
 font-size: 20px;
+margin-bottom: -40px;
+margin-left: 25%;
 
 }
-.home_title,
-.home_subtitle {
-  margin: 0; /* Elimina el margen predeterminado de los elementos h1 y h3 */
+
+.home_subtitle,
+.home_title{
+  margin: 0%;
 }
+
 
 .call_button_link{
     background-color: var(--violet);
-    width:150px;
-    height: 40px;
     color:var(--white);
     margin: 65px;
-    margin-bottom: 45px;
+    margin-bottom: 65px;
     border-radius: 20px;
+    text-align: center;
+    padding: 16px;
+    width:100px;
+    margin-left: 0%;
+  
+
 }
+
