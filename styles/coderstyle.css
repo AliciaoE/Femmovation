@@ -6,3 +6,36 @@ img{
 }
 
 /* borrar */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.mainimage {
+    display: flex;
+    justify-content: center;
+}
+
+.dropshape {
+    background-color: var(--pink);
+    border-radius: 50% 0 50% 50%;
+    min-height: 303px;
+    min-width: 303px;
+
+}
+
+@media screen and (min-width: 1200px) {
+    
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.dropshape {
+    width: 439px;
+    height: 448px;
+}
+    
+}
