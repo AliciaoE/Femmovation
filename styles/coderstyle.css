@@ -3,120 +3,127 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 
 :root {
-    --pink: #e19898;
-    --violet: #4d3c77;
-    --purple: #3f1d38;
-    --mauve: #b07a8d;
-    --light-pink: #f9eaea;
-    --dark-purple: #44274d;
-    --white: #ffffff;
-    --black: #000;
-  }
+  --pink: #e19898;
+  --violet: #4d3c77;
+  --purple: #3f1d38;
+  --mauve: #b07a8d;
+  --light-pink: #f9eaea;
+  --dark-purple: #44274d;
+  --white: #ffffff;
+  --black: #000;
+}
 
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 2%;
-    padding: 2%;
-    height: 100%;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 2%;
+  padding: 2%;
+  height: 100%;
 }
 
 .mainimage {
-    display: flex;
-    justify-content: center;
-    padding: 2% 5% 2% 5%
+  display: flex;
+  justify-content: center;
+  padding: 2% 5% 2% 5%;
 }
 
 .dropshape {
-    background-color: var(--pink);
-    border-radius: 50% 0 50% 50%;
-    min-height: 315px;
-    min-width: 317px;
-    display: flex;
-    justify-content: center;
-   align-items:center;
+  background-color: var(--pink);
+  border-radius: 50% 0 50% 50%;
+  min-height: 315px;
+  min-width: 317px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .photocoder {
-width: 95%;
-height:95% ;
-border-radius: 50%;
-background-color: var(--purple);
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  background-color: var(--purple);
 }
 
-.maintext{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    
+.maintext {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-.codername{
-width: 10%;
-font-size: 65px;
-color: var(--pink);
-font-weight: 400;
-line-height: 81%;
-margin: 0 0 2% 0;
+.codername {
+  width: 10%;
+  font-size: 65px;
+  color: var(--pink);
+  font-weight: 400;
+  line-height: 81%;
+  margin: 0 0 2% 0;
 }
 
-.footermainsection{
-    display: none;
+.footermainsection {
+  display: none;
 }
 
-.coderrole{
-    width: 100%;
-    font-size: 22px;
-    color: var(--dark-purple);
-    font-weight: 400; 
-    margin: 0 0 5% 0;
+.coderrole {
+  width: 100%;
+  font-size: 22px;
+  color: var(--dark-purple);
+  font-weight: 400;
+  margin: 0 0 5% 0;
 }
 
-.coderdescription{
-    width: 100%;
-    font-size: 18px;
-    color: var(--black);
-    font-weight: 400; 
-    margin: 0 0 5% 0;
+.coderdescription {
+  width: 100%;
+  font-size: 18px;
+  color: var(--black);
+  font-weight: 400;
+  margin: 0 0 5% 0;
 }
 
-.contactbox{
-    width: 236px;
-    margin-bottom: 1%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.contactbox {
+  width: 236px;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .logoLinkedin {
-    height: 50px;
-  }
-  
-.callbutton{
-    width: 157.7px;
-    height: 50px;
-    background-color: var(--violet);
-    color: var(--white);
-    border: var(--white) solid 0.5px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 50px;
+}
 
-  }
-
+.callbutton {
+  width: 157.7px;
+  height: 50px;
+  background-color: var(--violet);
+  color: var(--white);
+  border: var(--white) solid 0.5px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @media screen and (min-width: 1200px) {
-    
-.main {
+  .main {
     display: flex;
     flex-direction: row;
-}
+  }
 
-.dropshape {
+  .dropshape {
     width: 439px;
     height: 448px;
-}
-    
+  }
+
+  .footermainsection {
+    display: flex;
+  }
+
+  .profilecoder {
+    gap: 21px;
+  }
+
+  .profilecoder h5 {
+    margin-bottom: -10px;
+    margin-top: 10px;
+  }
 }
