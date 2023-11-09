@@ -1,1 +1,58 @@
 @import url(/styles/headerfooterstyle.css);
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+:root {
+    --pink: #e19898;
+    --violet: #4d3c77;
+    --purple: #3f1d38;
+    --mauve: #b07a8d;
+    --light-pink: #f9eaea;
+    --dark-purple: #44274d;
+    --white: #ffffff;
+    --black: #000;
+  }
+
+
+.main_img .dropshape img {
+width: 75%;
+  margin-top: 10%;
+  background-color: #e19898;
+  padding-left: 40px;
+  
+ 
+}
+
+.main_img,
+.aside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+.home_title{
+    color: var(--pink);
+    font-size: 48px;
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+}
+.home_subtitle{
+color:var(--dark-purple);
+font-family: 'Jost', sans-serif;
+font-weight: normal;
+font-size: 20px;
+
+}
+.home_title,
+.home_subtitle {
+  margin: 0; /* Elimina el margen predeterminado de los elementos h1 y h3 */
+}
+
+.call_button_link{
+    background-color: var(--violet);
+    width:150px;
+    height: 40px;
+    color:var(--white);
+    margin: 65px;
+    margin-bottom: 45px;
+    border-radius: 20px;
+}
