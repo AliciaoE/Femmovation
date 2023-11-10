@@ -1,3 +1,6 @@
+/* @import url(/styles/reset.css); */
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
 :root {
   --pink: #e19898;
   --violet: #4d3c77;
@@ -8,10 +11,6 @@
   --white: #ffffff;
   --black: #000;
 }
-
-@import url(/styles/reset.css);
-@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
-
 
 * {
   color: inherit;
@@ -50,7 +49,7 @@ footer {
   margin-top: auto;
 }
 
-.footermainsection {
+.footer_main_section {
   background-color: var(--pink);
   display: flex;
   flex-wrap: wrap;
@@ -60,7 +59,7 @@ footer {
 }
 
 
-.profilecoder {
+.profile_coder {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,20 +74,20 @@ footer {
   margin-top: 30px;
 }
 
-.photocoders {
+.photo_coders {
   width: 80%;
   border-radius: 50%;
   background-color: var(--purple);
 }
 
-.profilecoder h5 {
+.profile_coder h5 {
   color: var(--white);
   font-weight: 400;
   font-size: 20px;
   margin-bottom: -2px;
 }
 
-.profilecoder h6 {
+.profile_coder h6 {
   color: var(--dark-purple);
   font-weight: 400;
   font-size: 20px;
@@ -106,7 +105,7 @@ footer {
   gap: 20px;
 }
 
-.contactbuttonfooter {
+.contact_button_footer {
   width: 157.7px;
   height: 50px;
   background-color: var(--dark-purple);
@@ -118,7 +117,7 @@ footer {
 }
 
 
-.logoLinkedin {
+.logo_Linkedin {
   height: 50px;
 }
 
@@ -143,7 +142,7 @@ footer {
     justify-content: center;
   }
 
-  .contactbutton {
+  .contact_button {
     width: 157.7px;
     height: 50px;
     background-color: var(--mauve);
@@ -161,7 +160,7 @@ footer {
     display: none;
   }
 
-  .footermainsection {
+  .footer_main_section {
     flex-wrap: nowrap;
     display: flex;
     max-height: 360px;
