@@ -13,13 +13,14 @@
   }
 
 .main_img  {
+display: flex;
+margin-left: 15%;
+justify-content:center;
 height: 265px;
-width: 265px;
-margin-top: 10%;
+width: 260px;
 background-color: #e19898;
 margin-top: 15%;
 border-radius: 500px 0px 500px 500px;
-margin-left: 10%;
 background-image: url(../assets/images/group\ 2.png);
 background-size: 100%;
 background-repeat: no-repeat;
@@ -30,8 +31,9 @@ background-position: center;
     color: var(--pink);
     font-size: 48px;
     font-weight: normal;
-    margin-left: 10%;
+    margin-left: 15%;
     width: 10%;
+    line-height: 45px;
 
 }
 .home_subtitle{
@@ -39,7 +41,7 @@ color:var(--dark-purple);
 font-family: 'Jost', sans-serif;
 font-weight: normal;
 font-size: 20px;
-margin-left: 10%;   
+margin-left: 15%;   
 margin-top: -40px;
 }
 
@@ -52,7 +54,7 @@ margin-top: -40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 6%;
+  margin-left: 15%;
   margin-bottom: 20%;
   color: #ffffff;
 }
@@ -71,6 +73,7 @@ margin-top: -40px;
   height: 40%;
   padding: 25%;
   max-width: 265px;
+  margin-left:15%;
   
   }
   .aside{
@@ -84,5 +87,6 @@ margin-left: 5%;
   }
   .home_subtitle{
     font-size: 28px;
+    width: 100%;
   }
 }
