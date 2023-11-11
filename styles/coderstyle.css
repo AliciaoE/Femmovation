@@ -19,13 +19,13 @@
     width: 100%;  
 }
 
-.mainimage {
+.main_image {
     display: flex;
     justify-content: center;
     padding: 5% 2% 5% 2%
 }
 
-.dropshape {
+.drop_shape {
     background-color: var(--pink);
     border-radius: 50% 0 50% 50%;
     height: 315px;
@@ -34,14 +34,14 @@
     justify-content: center;
     align-items:center;
 }
-.photocoder {
+.photo_coder {
     width: 95%;
     height:95% ;
     border-radius: 50%;
     background-color: var(--purple);
 }
 
-.maintext{
+.main_text{
     display: flex;
     flex-direction: column;
     padding: 5% 5% 2% 5%;
@@ -49,7 +49,7 @@
     
 }
 
-.codername{
+.coder_name{
     width: 10%;
     font-size: 60px;
     color: var(--pink);
@@ -58,11 +58,11 @@
     margin: 0 0 2% 0;
 }
 
-.footermainsection{    
+.footer_main_section{    
     display: none;
 }
 
-.coderrole{
+.coder_role{
     width: 100%;
     font-size: 22px;
     color: var(--dark-purple);
@@ -70,7 +70,7 @@
     margin: 0 0 5% 0;
 }
 
-.coderdescription{
+.coder_description{
     width: 100%;
     font-size: 18px;
     color: var(--black);
@@ -78,7 +78,7 @@
     margin: 0 0 5% 0;
 }
 
-.contactbox{
+.contact_box{
     width: 236px;
     margin-bottom: 1%;
     display: flex;
@@ -86,11 +86,11 @@
     justify-content: space-between;
 }
 
-.logoLinkedin {
+.logo_Linkedin {
     height: 50px;
   }
   
-.callbutton{
+.call_button{
     width: 157.7px;
     height: 50px;
     background-color: var(--violet);
@@ -113,38 +113,38 @@
     margin-top: auto;
 }
 
-.coderrole{
+.coder_role{
     margin: 0 0 2% 0;
 }
 
-.codername{
+.coder_name{
     margin: 0 0 1% 0;
 }
 
-.coderdescription{
+.coder_description{
     width: 75%;
     margin: 0 0 3% 0;
 }
 
-.mainimage{
+.main_image{
     padding: 1% 2.5% 1% 15%;
 }
 
- .maintext{
+ .main_text{
     padding: 2% 10% 2% 2.5%
  }
 
-.dropshape {
+.drop_shape {
     max-width: 439px;
     max-height:448px;
 }
 
 
-.coderdescription{
+.coder_description{
     font-size: 15px;
 }
 
-.footermainsection{        
+.footer_main_section{        
     display: initial;
     display: flex;
     flex-direction: row;
